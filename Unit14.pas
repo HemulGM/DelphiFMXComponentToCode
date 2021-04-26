@@ -27,29 +27,6 @@ uses
 
 {$R *.fmx}
 
-{
-object MemoInput: TMemo
-  Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
-  DataDetectorTypes = []
-  Lines.Strings = (
-    'object MemoInput: TMemo'
-    '  Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]'
-    '  DataDetectorTypes = []'
-    'end')
-  StyledSettings = [Size, Style, FontColor]
-  TextSettings.Font.Family = 'Courier New'
-  OnChange = MemoInputChange
-  Align = Left
-  Size.Width = 473.000000000000000000
-  Size.Height = 605.000000000000000000
-  Size.PlatformDefault = False
-  TabOrder = 2
-  Viewport.Width = 469.000000000000000000
-  Viewport.Height = 601.000000000000000000
-end
-
-}
-
 procedure TForm14.MemoInputChangeTracking(Sender: TObject);
 var
   i: Integer;

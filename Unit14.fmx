@@ -1,0 +1,43 @@
+object Form14: TForm14
+  Left = 0
+  Top = 0
+  Caption = 'Form14'
+  ClientHeight = 605
+  ClientWidth = 1008
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object MemoInput: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Lines.Strings = (
+      'object MemoInput: TMemo'
+      '  Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]'
+      '  DataDetectorTypes = []'
+      'end')
+    StyledSettings = [Size, Style, FontColor]
+    TextSettings.Font.Family = 'Courier New'
+    OnChangeTracking = MemoInputChangeTracking
+    Align = Left
+    Size.Width = 473.000000000000000000
+    Size.Height = 605.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 469.000000000000000000
+    Viewport.Height = 601.000000000000000000
+  end
+  object MemoOutput: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    StyledSettings = [Size, Style, FontColor]
+    TextSettings.Font.Family = 'Courier New'
+    Align = Client
+    Size.Width = 535.000000000000000000
+    Size.Height = 605.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 531.000000000000000000
+    Viewport.Height = 601.000000000000000000
+  end
+end
